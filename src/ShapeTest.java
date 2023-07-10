@@ -1,8 +1,6 @@
 public class ShapeTest {
 
     public static void main(String[] args) {
-        ShapePrinter printer = new ShapePrinter();
-
         Shape triangle = new Triangle(10,10,10);
         Shape quad = new Quad(10);
         Shape circle = new Circle(10);
@@ -10,11 +8,11 @@ public class ShapeTest {
         Shape rhombus = new Rhombus(10,10,10);
 
         System.out.println("====================Names Of Shapes====================");
-        printer.printShape(triangle);
-        printer.printShape(quad);
-        printer.printShape(circle);
-        printer.printShape(rectangle);
-        printer.printShape(rhombus);
+        ShapePrinter.printShape(triangle);
+        ShapePrinter.printShape(quad);
+        ShapePrinter.printShape(circle);
+        ShapePrinter.printShape(rectangle);
+        ShapePrinter.printShape(rhombus);
 
         System.out.println("====================Square Of Shapes====================");
         System.out.println("triangle.calculateSquare() = " + triangle.calculateSquare());
