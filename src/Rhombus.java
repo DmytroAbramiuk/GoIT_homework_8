@@ -23,7 +23,7 @@ public class Rhombus extends Shape{
     }
 
     @Override
-    public void printShapeName() {
+    public void printName() {
         System.out.println("Rhombus");
     }
 

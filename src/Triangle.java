@@ -23,7 +23,7 @@ public class Triangle extends Shape{
     }
 
     @Override
-    public void printShapeName() {
+    public void printName() {
         System.out.println("Triangle");
     }
 

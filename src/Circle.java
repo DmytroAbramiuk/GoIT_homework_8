@@ -11,7 +11,7 @@ public class Circle extends Shape{
     }
 
     @Override
-    public void printShapeName() {
+    public void printName() {
         System.out.println("Circle");
     }
 
@@ -25,9 +25,5 @@ public class Circle extends Shape{
         return 2*Math.PI*radius;
     }
 
-    @Override
-    public String toString(){
-        return "Shape name is Circle, square of that Circle is " + calculateSquare() +
-                ", perimeter of that Circle is " + calculatePerimeter();
-    }
+     
 }

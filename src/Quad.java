@@ -10,7 +10,7 @@ public class Quad extends Shape{
     }
 
     @Override
-    public void printShapeName() {
+    public void printName() {
         System.out.println("Quad");
     }
 

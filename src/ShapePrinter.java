@@ -1,5 +1,5 @@
 public class ShapePrinter {
-    public void printShape(Shape shape){
-        shape.printShapeName();
+    public static void printShape(Shape shape){
+        shape.printName();
     }
 }
